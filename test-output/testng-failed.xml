@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite Parametrizada]">
+  <parameter name="idade" value="30"/>
+  <parameter name="saudacao" value="boa noite"/>
+  <parameter name="cor" value="amarelo"/>
+  <parameter name="nome" value="Abner"/>
+  <test thread-count="5" name="Testes Parametrizados(failed)">
+    <classes>
+      <class name="framework.TesteNGParametrizado.TesteParametrizado">
+        <methods>
+          <include name="nomes"/>
+        </methods>
+      </class> <!-- framework.TesteNGParametrizado.TesteParametrizado -->
+    </classes>
+  </test> <!-- Testes Parametrizados(failed) -->
+</suite> <!-- Failed suite [Suite Parametrizada] -->

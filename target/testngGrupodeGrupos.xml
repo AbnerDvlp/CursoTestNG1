@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Testes grupo de grupos">
+	<groups>
+	<define name="testes-normais">
+	<include name="testandoGroup1"></include>
+	</define>
+	<define name="outros-testes">
+	<include name="booleano"></include>
+	</define>
+	</groups>
+		<packages>
+			<package name="framework.*"></package>
+		</packages>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

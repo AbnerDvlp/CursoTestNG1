@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite Parametrizada">
+	<parameter name="nome" value="Abner"></parameter>
+	<parameter name="idade" value="30"></parameter>
+	<parameter name="cor" value="amarelo"></parameter>
+	<parameter name="saudacao" value="boa noite"></parameter>
+	<test name="Testes Parametrizados">
+		<packages>
+			<package name="framework.TesteNGParametrizado"></package>
+			<package name="framework.TestNGRetorno"></package>
+		</packages>
+	</test>
+</suite> <!-- Suite -->

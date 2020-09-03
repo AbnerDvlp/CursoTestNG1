@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" allow-return-values="true">
+	<test name="Testes de retorno">
+		<classes>
+			<class name="framework.TestNGRetorno.TestesRetorno"></class>	
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
